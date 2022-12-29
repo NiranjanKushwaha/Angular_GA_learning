@@ -1,0 +1,193 @@
+.container-fluid,
+.row,
+.col-12 {
+  margin: 0;
+  padding: 0;
+}
+
+.view_data_btn {
+  text-align: center;
+}
+
+.view_data_btn button {
+  color: black;
+}
+
+.view_data_btn button:hover {
+  color: #fff;
+}
+
+.container-fluid {
+  background-color: antiquewhite;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.modal-header {
+  background-color: dodgerblue;
+  height: 3rem;
+}
+
+.modal-footer {
+  padding: 0.2rem;
+}
+
+.btn-white {
+  border-radius: 50%;
+  padding: 0.5em;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+  position: relative;
+}
+
+.btn-white:hover {
+  border: 2px solid #fff;
+  background-color: red;
+  color: #ffffff;
+}
+
+.btn-white::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: #fff;
+  width: 2px;
+  left: 12px;
+  top: 5px;
+  bottom: 5px;
+  transform: rotate(45deg);
+}
+
+.btn-white::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: #fff;
+  height: 2px;
+  top: 12px;
+  left: 5px;
+  right: 5px;
+  transform: rotate(45deg);
+}
+
+.nav-tabs {
+  border-bottom: 2px solid dodgerblue;
+}
+
+.nav-link .active {
+  background: #fff;
+  border-top: 3px solid dodgerblue !important;
+  border-left: 3px solid dodgerblue !important;
+  border-right: 3px solid dodgerblue !important;
+  padding: 3px;
+  color: dodgerblue;
+}
+
+.nav-link {
+  background-color: dodgerblue;
+  color: #fff;
+  border-left: 0.5px solid #000;
+  border-right: 0.5px solid #000;
+}
+
+.border-right {
+  border-right: 2px solid silver;
+  height: 70vh !important;
+}
+
+.fit_size{
+  max-height: 90vh;
+}
+
+.verticalBar{
+  border-left: 1px solid silver;
+  height: 70vh;
+}
+
+.addFields:first-child{
+  /* width:5rem; */
+}
+
+
+/* ------------------------------------------- */
+table.scrolldown {
+  width: 100%;
+  height: 340px;
+}
+
+/* To display the block as level element */
+table.scrolldown tbody, table.scrolldown thead {
+  display: block;
+} 
+
+
+table.scrolldown tbody {
+  height: 300px; 
+  overflow-y: auto;
+  overflow-x: hidden; 
+  
+}
+
+table.scrolldown tbody::-webkit-scrollbar {
+  width: 3px;
+  z-index: -1;
+}
+ 
+table.scrolldown tbody::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+table.scrolldown tbody::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+tbody td, thead th {
+  width : 200px;
+}
+td,th {
+  text-align:center;
+}
+
+
+input[type='text']{
+  width: 18rem;
+}
+
+.common_btn_style{
+  width:3rem;
+  border-radius: 5px;
+  
+}
+
+.addbtn{
+  float: right;
+  background-color: #dcdde1;
+  border-radius: 0.3rem;
+}
+
+.addbtn:hover,.footer_close_btn:hover{
+  background-color: silver;
+}
+
+.footer_close_btn, .delete_btn{
+  background-color: #dcdde1;
+}
+.delete_btn:hover{
+  background-color: red;
+  color: #fff;
+}
+
+.footer_ok_btn{
+background-color: rgb(161, 199, 238);
+}
+
+.footer_ok_btn:hover{
+  background-color: dodgerblue;
+}
