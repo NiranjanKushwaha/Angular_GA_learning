@@ -1,5 +1,5 @@
 {
-  "name": "koru",
+  "name": "MA",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -44,12 +44,11 @@
   "main": "karma.conf.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NiranjanKushwaha/Koru.git"
+    "url": "git+https://github.com/NiranjanKushwaha/Angular_GA_learning.git"
   },
   "keywords": [
-    "Koru",
+    "Angular_GA_learning",
     "UI",
-    "Koru",
     "Sortable",
     "table",
     "Modal"
@@ -57,7 +56,7 @@
   "author": "Niranjan Kushwaha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NiranjanKushwaha/Koru/issues"
+    "url": "https://github.com/NiranjanKushwaha/MA/issues"
   },
-  "homepage": "https://github.com/NiranjanKushwaha/Koru#readme"
+  "homepage": "https://github.com/NiranjanKushwaha/MA#readme"
 }
